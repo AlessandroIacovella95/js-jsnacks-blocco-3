@@ -17,24 +17,42 @@
 
 // Esercizio 2
 
-//* Chiedo all'utente una prima parola
-const firstWord = prompt('Inserisci una prima parola')
+// //* Chiedo all'utente una prima parola
+// const firstWord = prompt('Inserisci una prima parola')
 
-//* Chiedo all'utente una seconda parola
-const secondWord = prompt('Inserisci una seconda parola')
+// //* Chiedo all'utente una seconda parola
+// const secondWord = prompt('Inserisci una seconda parola')
 
-//* Chiedo all'utente una prima parola
-if (firstWord.length == secondWord.length) {
-    //* Stampo entrambe le parole
-    console.log(firstWord, secondWord)
+// //* Chiedo all'utente una prima parola
+// if (firstWord.length == secondWord.length) {
+//     //* Stampo entrambe le parole
+//     console.log(firstWord, secondWord)
 
-    //* ALTRIMENTI SE la prima parola è più lunga della seconda
-} else if  (firstWord.length > secondWord.length){
+//     //* ALTRIMENTI SE la prima parola è più lunga della seconda
+// } else if  (firstWord.length > secondWord.length){
 
-    //* Stampo la prima
-    console.log(firstWord)
+//     //* Stampo la prima
+//     console.log(firstWord)
 
-    //* ALTRIMENTI Stampo la seconda
-} else{
-    console.log(secondWord)
+//     //* ALTRIMENTI Stampo la seconda
+// } else{
+//     console.log(secondWord)
+// }
+
+// Esercizio 3
+
+const numbers = []
+
+let sum = 0
+
+while (sum < 50) {
+    let userNumber = parseInt(prompt('inserisci un numero'))
+    sum+= userNumber;
+
+    if (sum < 50) {
+        numbers.push(userNumber)  
+    }
 }
+
+console.table(numbers)
+console.log(sum)

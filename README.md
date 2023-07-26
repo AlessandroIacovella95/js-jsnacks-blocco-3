@@ -24,3 +24,16 @@ Dare la possibilità di inserire due parole. Verificare che le due parole abbian
 - **ALTRIMENTI SE** la prima parola è più lunga della seconda stampo la prima
 - **ALTRIMENTI** Stampo la seconda
 
+<hr>
+
+## Traccia snack-3:
+Crea un array vuoto e chiedi all'utente un numero da inserire nell'array. Continua a chiedere i numeri all'utente e a inserirli nell'array fino a quando la somma degli elementi è minore di 50.
+
+## Svolgimento:
+
+-Creo un array vuoto
+- Ciclo **WHILE**
+  - Chiedo all'utente un numero
+  - Inserisco il numero nell'array
+  - esco dal ciclo quando la somma dei numeri è minore di 50
+
