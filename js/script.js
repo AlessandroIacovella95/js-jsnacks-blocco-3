@@ -47,6 +47,7 @@ const numbers = []
 //* Dichiaro la variabile somma
 let sum = 0
 
+
 //* Ciclo WHILE
 while (sum < 50) {
 
@@ -56,11 +57,13 @@ while (sum < 50) {
     //* Sommo il numero alla variabile somma
     sum+= userNumber;
 
-    if (sum < 50) {
-        //* Inserisco il numero nell'array
-        numbers.push(userNumber)  
-    }
+    //* Inserisco il numero nell'array
+    numbers.push(userNumber)  
 }
 
+let media = sum / numbers.length;
+
+
 console.table(numbers)
-console.log(sum)
+console.log('la somma è: ' + sum)
+console.log('la media è: ' + media);
