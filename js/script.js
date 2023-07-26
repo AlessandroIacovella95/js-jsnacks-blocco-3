@@ -41,29 +41,42 @@
 
 // Esercizio 3
 
-//* Creo un array vuoto
-const numbers = []
+// //* Creo un array vuoto
+// const numbers = []
 
-//* Dichiaro la variabile somma
-let sum = 0
+// //* Dichiaro la variabile somma
+// let sum = 0
 
 
-//* Ciclo WHILE
-while (sum < 50) {
+// //* Ciclo WHILE
+// while (sum < 50) {
 
-    //*Chiedo all'utente un numero
-    let userNumber = parseInt(prompt('inserisci un numero'))
+//     //*Chiedo all'utente un numero
+//     let userNumber = parseInt(prompt('inserisci un numero'))
 
-    //* Sommo il numero alla variabile somma
-    sum+= userNumber;
+//     //* Sommo il numero alla variabile somma
+//     sum+= userNumber;
 
-    //* Inserisco il numero nell'array
-    numbers.push(userNumber)  
+//     //* Inserisco il numero nell'array
+//     numbers.push(userNumber)  
+// }
+
+// let media = sum / numbers.length;
+
+
+// console.table(numbers)
+// console.log('la somma è: ' + sum)
+// console.log('la media è: ' + media);
+
+// Esercizio 4
+
+let numbers = [1, 2, 3, 4, 5, 6, 7, 8];
+let evenNumbers = [];
+
+for (let i = 0; i < numbers.length - 1; i++) {
+    if (numbers[i] % 2 == 0) {
+        evenNumbers.push(i);
+    }
 }
 
-let media = sum / numbers.length;
-
-
-console.table(numbers)
-console.log('la somma è: ' + sum)
-console.log('la media è: ' + media);
+console.log(evenNumbers);
