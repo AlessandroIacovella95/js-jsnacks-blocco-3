@@ -41,15 +41,23 @@
 
 // Esercizio 3
 
+//* Creo un array vuoto
 const numbers = []
 
+//* Dichiaro la variabile somma
 let sum = 0
 
+//* Ciclo WHILE
 while (sum < 50) {
+
+    //*Chiedo all'utente un numero
     let userNumber = parseInt(prompt('inserisci un numero'))
+
+    //* Sommo il numero alla variabile somma
     sum+= userNumber;
 
     if (sum < 50) {
+        //* Inserisco il numero nell'array
         numbers.push(userNumber)  
     }
 }

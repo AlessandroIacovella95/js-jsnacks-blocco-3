@@ -31,9 +31,11 @@ Crea un array vuoto e chiedi all'utente un numero da inserire nell'array. Contin
 
 ## Svolgimento:
 
--Creo un array vuoto
+- Creo un array vuoto
+- Dichiaro la variabile somma
 - Ciclo **WHILE**
   - Chiedo all'utente un numero
   - Inserisco il numero nell'array
+  - Sommo il numero alla variabile somma
   - esco dal ciclo quando la somma dei numeri è minore di 50
 
